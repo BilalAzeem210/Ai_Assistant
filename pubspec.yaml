@@ -1,0 +1,61 @@
+name: ai_assistant
+description: "An Ai Assistant (Chatgpt, Image Generator & Language Translator) App Based On Gemini developed by Bilal Azeem"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.4
+  lottie: ^3.3.2
+  hive_flutter: ^1.1.0
+  path_provider:
+  get: ^4.7.3
+  flutter_animate: ^4.5.2
+  http:
+  animated_text_kit: ^4.3.0
+  saver_gallery: ^4.1.1
+  share_plus: ^13.1.0
+  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/appicon.png"
+
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
